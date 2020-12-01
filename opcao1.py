@@ -6,10 +6,10 @@ familia = ['Shirlei', 'Tairone', 'Silmara', 'Mariangela', 'Eduardo', 'Márcio', 
 sorteados = []
 i = 0
 while len(sorteados) < len(familia):
-  a = choice(familia)
-  if (familia[i] != a) and (a not in sorteados):
-    print(f"{familia [i]} tirou {a}")
-    sorteados.append(a)
+  raffle = choice(familia)
+  if (familia[i] != raffle) and (raffle not in sorteados):
+    print(f"{familia [i]} tirou {raffle}")
+    sorteados.append(raffle)
     i += 1
   else:
     continue
